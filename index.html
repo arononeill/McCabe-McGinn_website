@@ -1,996 +1,2312 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
+    <title>MCMG Construction & Management Ltd.</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>MCMG Constuction & Management Ltd.</title>
+    <!-- Custom fonts for this template -->
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet" />
+  </head>
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/agency.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a href="#page-top" class="navbar-brand js-scroll-trigger">
-        <img id="switchPic" class="navbar-brand js-scroll-trigger" src="img/logos/white_logo.jpg" alt="">
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item" id="hover">
-            <a class="nav-link js-scroll-trigger" id="hover" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="hover" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="hover" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="hover" href="#clients">Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="hover" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-      </div>
-    </div>
-  </header>
-
-  <!-- Services -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <div class="row" id="services">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-        </div>
-      </div>
-      <div class="row" id="ServicesTitle">
-        <div id="column" class="col-md-3 col-sm-6">
-          <img id="servicesHover" src="img/services/zoomed_up/dunnes.PNG" style="width:100%" onclick="openModalNew();currentSlide(1);showSlidesNew(1);" class="hover-shadow cursor">
-          <h4 class="service-heading">Retail</h4>
-          <p class="">Delivering complex, fast-track retail projects - with extensive experience operating in live, trading stores.</p>
-        </div>
-        <div id="column" class="col-md-3 col-sm-6">
-          <img id="servicesHover" src="img/services/4DX.png" style="width:100%" onclick="openModalNew();currentSlide(2);showSlidesNew(2);" class="hover-shadow cursor">
-          <h4 class="service-heading">Leisure</h4>
-          <p class="">In conjunction with our trusted supply chain partners, we provide bespoke solutions for unique requirements.</p>
-        </div>
-        <div id="column" class="col-md-3 col-sm-6">
-          <img id="servicesHover" src="img/services/zoomed_up/brown_thomas.png" style="width:100%" onclick="openModalNew();currentSlide(4);showSlidesNew(3);" class="hover-shadow cursor">
-          <h4 class="service-heading">Hospitality</h4>
-          <p class="">Bringing highly specialised knowledge and experience to the commercial office environment.</p>
-        </div>
-        <div id="column" class="col-md-3 col-sm-6">
-          <img id="servicesHover" src="img/services/offices.png" style="width:100%" onclick="openModalNew();currentSlide(5);showSlidesNew(4);" class="hover-shadow cursor">
-          <h4 class="service-heading">Commercial</h4>
-          <p class="">Bringing highly specialised knowledge and experience to the commercial office environment.</p>
-        </div>
-      </div>
-
-      <!-- Services Modals -->
-
-      <!-- Modal 1 -->
-
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModalNew()">&times;</span>
-        <div class="modal-content" id="modal-content">
-      
-          <div class="mySlides">
-            <div class="PortfolioNumbertext">1 / 6</div>
-            <img id="big_image" src="img/services/full_size/dunnes_stores.PNG" style="width:100%">
-            <img id="small_image" src="img/services/phone_size/dunnes_stores.png" style="width:100%">
-          </div>
-      
-          <div class="mySlides">
-            <div class="PortfolioNumbertext">2 / 6</div>
-            <img id="big_image" src="img/services/full_size/4DX.PNG" style="width:100%">
-            <img id="small_image" src="img/services/phone_size/4DX.1.PNG" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="PortfolioNumbertext">3 / 6</div>
-            <img id="big_image" src="img/services/full_size/4DX2.1.PNG" style="width:100%">
-            <img id="small_image" src="img/services/phone_size/4DX2.2.PNG" style="width:100%">
-          </div>
-      
-          <div class="mySlides">
-            <div class="PortfolioNumbertext">4 / 6</div>
-            <img id="big_image" src="img/services/full_size/brown_thomas.PNG" style="width:100%">
-            <img id="small_image" src="img/services/phone_size/brown_thomas.PNG" style="width:100%">
-          </div>
-          
-          <div class="mySlides">
-            <div class="PortfolioNumbertext">5 / 6</div>
-            <img id="big_image" src="img/services/full_size/office.PNG" style="width:100%">
-            <img id="small_image" src="img/services/phone_size/office.PNG" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="PortfolioNumbertext">6 / 6</div>
-            <img id="big_image" src="img/services/full_size/arnotts.PNG" style="width:100%">
-            <img id="small_image" src="img/services/phone_size/arnotts.PNG" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNew(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNew(1)">&#10095;</a>
-      
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" >
-              <img class="demo cursor" src="img/services/zoomed_up/dunnes.PNG" style="width:100%" onclick="currentSlide(1);showSlidesNew(1);" alt="DUNNES STORES">
-            </div>
-            <div class="column">  
-              <img class="demo cursor" src="img/services/4DX.png" style="width:100%" onclick="currentSlide(2);showSlidesNew(2);" alt="4 DX CINEMA ">
-            </div>
-            <div class="column">  
-              <img class="demo cursor" src="img/services/zoomed_up/4DX2.PNG" style="width:100%" onclick="currentSlide(3);showSlidesNew(3);" alt="4 DX CINEMA">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="img/services/zoomed_up/brown_thomas.png" style="width:100%" onclick="currentSlide(4);showSlidesNew(4);" alt="BROWN THOMAS">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="img/services/offices.png" style="width:100%" onclick="currentSlide(5);showSlidesNew(5);" alt="OFFICE INTERIORS">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="img/services/zoomed_up/arnotts.png" style="width:100%" onclick="currentSlide(6);showSlidesNew(6)" alt="ARNOTTS BEAUTY HALL">
-            </div>
-          </div>
-        </div>
-      </div>      
-    </div> 
-  </section>
-
-  <!-- Portfolio Grid -->
-  <section class="page-section" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-        </div>
-      </div>
-      <div class="row" id="PortfolioTitle">
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover" src="img/live_images/portfolio/arnotts/arnotts5.jpg" style="width:100%" onclick="openModalNewPortfolio2();currentSlidePortfolio2(1);showSlidesNewPortfolio2(1);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Henry Street, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Arnotts </p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover1" src="img/live_images/portfolio/brown_thomas1st/brown_thomas2.JPG" style="width:100%" onclick="openModalNewPortfolio3();currentSlidePortfolio3(2);showSlidesNewPortfolio3(2);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Grafton Street, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Brown Thomas - Ground Floor Refurbishments</p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover1" src="img/live_images/portfolio/superdry/superdry4.JPG" style="width:100%" onclick="openModalNewPortfolio10();currentSlidePortfolio10(4);showSlidesNewPortfolio10(4);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Newry</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Superdry</p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover1" src="img/live_images/portfolio/4DX/4DX3.2.jpg" style="width:100%" onclick="openModalNewPortfolio4();currentSlidePortfolio4(3);showSlidesNewPortfolio4(3);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Parnell Street, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Cinema 4DX Dublin</p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover1" src="img/live_images/portfolio/Dolans/Dolan1.JPG" style="width:100%" onclick="openModalNewPortfolio5();currentSlidePortfolio5(1);showSlidesNewPortfolio5(1);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Glaslough Street, Monaghan</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Dolan's Pharmacy</p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover1" src="img/live_images/portfolio/restaurant_level3/restaurant3.jpg" style="width:100%" onclick="openModalNewPortfolio6();currentSlidePortfolio6(1);showSlidesNewPortfolio6(1);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Grafton Street, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>The Restaurant Level 3 Brown Thomas</p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover1" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas1.JPG" style="width:100%" onclick="openModalNewPortfolio7();currentSlidePortfolio7(1);showSlidesNewPortfolio7(1);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Grafton Street, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Brown Thomas - 2nd Floor Refurbishments</p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover" src="img/live_images/portfolio/green_bean/brown_thomas5.png" style="width:100%" onclick="openModalNewPortfolio8();currentSlidePortfolio8(1);showSlidesNewPortfolio8(1);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Grafton Street, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Green and Bean Restaurant </p>
-          </div>
-        </div>
-        <div id="columnPortfolio" class="col-md-4 col-sm-6">
-          <img class="columnHover" id="portfolioHover" src="img/live_images/portfolio/dunnes/dunnes6.1.jpg" style="width:100%" onclick="openModalNewPortfolio9();currentSlidePortfolio9(1);showSlidesNewPortfolio9(1);">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">Multiple Locations, Dublin</h3>
-          </div>
-          <div class="portfolio-caption">
-            <p>Dunnes Stores</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row" id="ServicesTitle">
-      <div id="column" class="col-md-3 col-sm-6">
-
-      <!-- Portfolio Modals -->
-
-      <!-- Modal 2 -->
-      <div id="myPortfolioModal2" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio2()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio2">
-            <div class="PortfolioNumbertext">1 / 6</div>
-            <img src="img/live_images/portfolio/arnotts/arnotts5.jpg" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio2">
-            <div class="PortfolioNumbertext">2 / 6</div>
-            <img src="img/live_images/portfolio/arnotts/arnotts1.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio2">
-            <div class="PortfolioNumbertext">3 / 6</div>
-            <img src="img/live_images/portfolio/arnotts/arnotts2.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio2">
-            <div class="PortfolioNumbertext">4 / 6</div>
-            <img src="img/live_images/portfolio/arnotts/arnotts3.jpg" style="width:100%">
-          </div>
-          
-          <div class="mySlidesPortfolio2">
-            <div class="PortfolioNumbertext">5 / 6</div>
-            <img src="img/live_images/portfolio/arnotts/arnotts4.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio2">
-            <div class="PortfolioNumbertext">6 / 6</div>
-            <img src="img/live_images/portfolio/arnotts/arnotts6.jpg" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio2(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio2(1)">&#10095;</a>
-      
-          <div class="caption-container">
-            <p id="captionPortfolio2"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="higher">
-              <img class="demoPortfolio2 cursor" src="img/live_images/portfolio/arnotts/arnotts5.jpg" style="width:100%" onclick="currentSlidePortfolio2(1);showSlidesNewPortfolio2(1);" alt="Arnotts Dublin - Beauty Hub Ground Floor">
-            </div>
-            <div class="column" id="higher">  
-              <img class="demoPortfolio2 cursor" src="img/live_images/portfolio/arnotts/arnotts1.jpg" style="width:100%" onclick="currentSlidePortfolio2(2);showSlidesNewPortfolio2(2);" alt="Arnotts Dublin - 1st Floor Shoes">
-            </div>
-            <div class="column" id="higher">  
-              <img class="demoPortfolio2 cursor" src="img/live_images/portfolio/arnotts/arnotts2.jpg" style="width:100%" onclick="currentSlidePortfolio2(3);showSlidesNewPortfolio2(3);" alt="Arnotts Dublin - 1st Floor Shoes">
-            </div>
-            <div class="column" id="higher">
-              <img class="demoPortfolio2 cursor" src="img/live_images/portfolio/arnotts/arnotts3.jpg" style="width:100%" onclick="currentSlidePortfolio2(4);showSlidesNewPortfolio2(4);" alt="Arnotts Dublin - 1st Floor Shoes">
-            </div>
-            <div class="column" id="higher">
-              <img class="demoPortfolio2 cursor" src="img/live_images/portfolio/arnotts/arnotts4.jpg" style="width:100%" onclick="currentSlidePortfolio2(5);showSlidesNewPortfolio2(5);" alt="Arnotts Dublin - 1st Floor Shoes">
-            </div>
-            <div class="column" id="higher">
-              <img class="demoPortfolio2 cursor" src="img/live_images/portfolio/arnotts/arnotts6.jpg" style="width:100%" onclick="currentSlidePortfolio2(6);showSlidesNewPortfolio2(6);" alt="Arnotts Dublin - Beauty Hub Ground Floor">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 3 -->
-      <div id="myPortfolioModal3" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio3()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">1 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas1.JPG" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">2 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas2.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">3 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas3.JPG" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">4 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas4.JPG" style="width:100%">
-          </div>
-          
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">5 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas5.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">6 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas6.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio3">
-            <div class="PortfolioNumbertext">7 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas1st/brown_thomas7.JPG" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio3(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio3(1)">&#10095;</a>
-      
-          <div class="caption-container">
-            <p id="captionPortfolio3"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas1.JPG" style="width:100%" onclick="currentSlidePortfolio3(1);showSlidesNewPortfolio3(1);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">  
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas2.JPG" style="width:100%" onclick="currentSlidePortfolio3(2);showSlidesNewPortfolio3(2);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">  
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas3.JPG" style="width:100%" onclick="currentSlidePortfolio3(3);showSlidesNewPortfolio3(3);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas4.JPG" style="width:100%" onclick="currentSlidePortfolio3(4);showSlidesNewPortfolio3(4);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas5.JPG" style="width:100%" onclick="currentSlidePortfolio3(5);showSlidesNewPortfolio3(5);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas6.JPG" style="width:100%" onclick="currentSlidePortfolio3(6);showSlidesNewPortfolio3(6);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio3 cursor" src="img/live_images/portfolio/brown_thomas1st/brown_thomas7.JPG" style="width:100%" onclick="currentSlidePortfolio3(7);showSlidesNewPortfolio3(7);" alt="Brown Thomas Dublin - Ground Floor Refurbishments">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 10 -->
-      <div id="myPortfolioModal10" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio10()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">1 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry1.JPG" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">2 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry2.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">3 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry3.JPG" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">4 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry4.JPG" style="width:100%">
-          </div>
-          
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">5 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry5.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">6 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry6.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio10">
-            <div class="PortfolioNumbertext">7 / 7</div>
-            <img src="img/live_images/portfolio/superdry/superdry7.JPG" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio10(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio10(1)">&#10095;</a>
-      
-          <div class="caption-container2">
-            <p id="captionPortfolio10"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry1.JPG" style="width:100%" onclick="currentSlidePortfolio10(1);showSlidesNewPortfolio10(1);" alt="Superdry Newry">
-            </div>
-            <div class="column" id="bt1stfloor">  
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry2.JPG" style="width:100%" onclick="currentSlidePortfolio10(2);showSlidesNewPortfolio10(2);" alt="Superdry Newry">
-            </div>
-            <div class="column" id="bt1stfloor">  
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry3.JPG" style="width:100%" onclick="currentSlidePortfolio10(3);showSlidesNewPortfolio10(3);" alt="Superdry Newry">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry4.JPG" style="width:100%" onclick="currentSlidePortfolio10(4);showSlidesNewPortfolio10(4);" alt="Superdry Newry">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry5.JPG" style="width:100%" onclick="currentSlidePortfolio10(5);showSlidesNewPortfolio10(5);" alt="Superdry Newry">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry6.JPG" style="width:100%" onclick="currentSlidePortfolio10(6);showSlidesNewPortfolio10(6);" alt="Superdry Newry">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio10 cursor" src="img/live_images/portfolio/superdry/superdry7.JPG" style="width:100%" onclick="currentSlidePortfolio10(7);showSlidesNewPortfolio10(7);" alt="Superdry Newry">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 4 -->
-      <div id="myPortfolioModal4" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio4()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio4">
-            <div class="PortfolioNumbertext">1 / 5</div>
-            <img src="img/live_images/portfolio/4DX/4DX1.jpg" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio4">
-            <div class="PortfolioNumbertext">2 / 5</div>
-            <img src="img/live_images/portfolio/4DX/4DX2.PNG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio4">
-            <div class="PortfolioNumbertext">3 / 5</div>
-            <img src="img/live_images/portfolio/4DX/4DX3.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio4">
-            <div class="PortfolioNumbertext">4 / 5</div>
-            <img src="img/live_images/portfolio/4DX/4DX4.jpg" style="width:100%">
-          </div>
-          
-          <div class="mySlidesPortfolio4">
-            <div class="PortfolioNumbertext">5 / 5</div>
-            <img src="img/live_images/portfolio/4DX/4DX5.jpg" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio4(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio4(1)">&#10095;</a>
-      
-          <div class="caption-container2">
-            <p id="captionPortfolio4"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt">
-              <img class="demoPortfolio4 cursor" src="img/live_images/portfolio//4DX/4DX1.jpg" style="width:100%" onclick="currentSlidePortfolio4(1);showSlidesNewPortfolio4(1);" alt="Cinema 4DX Dublin">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio4 cursor" src="img/live_images/portfolio/4DX/4DX2.PNG" style="width:100%" onclick="currentSlidePortfolio4(2);showSlidesNewPortfolio4(2);" alt="Cinema 4DX Dublin">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio4 cursor" src="img/live_images/portfolio/4DX/4DX3.jpg" style="width:100%" onclick="currentSlidePortfolio4(3);showSlidesNewPortfolio4(3);" alt="Cinema 4DX Dublin">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio4 cursor" src="img/live_images/portfolio/4DX/4DX4.jpg" style="width:100%" onclick="currentSlidePortfolio4(4);showSlidesNewPortfolio4(4);" alt="Cinema 4DX Dublin">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio4 cursor" src="img/live_images/portfolio/4DX/4DX5.jpg" style="width:100%" onclick="currentSlidePortfolio4(5);showSlidesNewPortfolio4(5);" alt="Cinema 4DX Dublin">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 5 -->
-      <div id="myPortfolioModal5" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio5()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio5">
-            <div class="PortfolioNumbertext">1 / 5</div>
-            <img src="img/live_images/portfolio/Dolans/Dolan1.JPG" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio5">
-            <div class="PortfolioNumbertext">2 / 5</div>
-            <img src="img/live_images/portfolio/Dolans/Dolan2.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio5">
-            <div class="PortfolioNumbertext">3 / 5</div>
-            <img src="img/live_images/portfolio/Dolans/Dolan3.JPG" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio5">
-            <div class="PortfolioNumbertext">4 / 5</div>
-            <img src="img/live_images/portfolio/Dolans/Dolan4.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio5">
-            <div class="PortfolioNumbertext">5 / 5</div>
-            <img src="img/live_images/portfolio/Dolans/Dolan6.JPG" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio5(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio5(1)">&#10095;</a>
-      
-          <div class="caption-container2">
-            <p id="captionPortfolio5"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt">
-              <img class="demoPortfolio5 cursor" src="img/live_images/portfolio/Dolans/Dolan1.JPG" style="width:100%" onclick="currentSlidePortfolio5(1);showSlidesNewPortfolio5(1);" alt="Dolan's Pharmacy Monaghan">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio5 cursor" src="img/live_images/portfolio/Dolans/Dolan2.JPG" style="width:100%" onclick="currentSlidePortfolio5(2);showSlidesNewPortfolio5(2);" alt="Dolan's Pharmacy Monaghan">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio5 cursor" src="img/live_images/portfolio/Dolans/Dolan3.JPG" style="width:100%" onclick="currentSlidePortfolio5(3);showSlidesNewPortfolio5(3);" alt="Dolan's Pharmacy Monaghan">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio5 cursor" src="img/live_images/portfolio/Dolans/Dolan4.JPG" style="width:100%" onclick="currentSlidePortfolio5(4);showSlidesNewPortfolio5(4);" alt="Dolan's Pharmacy Monaghan">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio5 cursor" src="img/live_images/portfolio/Dolans/Dolan6.JPG" style="width:100%" onclick="currentSlidePortfolio5(5);showSlidesNewPortfolio5(5);" alt="Dolan's Pharmacy Monaghan">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 6 -->
-      <div id="myPortfolioModal6" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio6()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio6">
-            <div class="PortfolioNumbertext">1 / 5</div>
-            <img id="big_image" src="img/live_images/portfolio/restaurant_level3/restaurant3.1.png" style="width:100%;height:80%">
-            <img id="small_image" src="img/live_images/portfolio/restaurant_level3/restaurant3.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio6">
-            <div class="PortfolioNumbertext">2 / 5</div>
-            <img src="img/live_images/portfolio/restaurant_level3/restaurant1.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio6">
-            <div class="PortfolioNumbertext">3 / 5</div>
-            <img src="img/live_images/portfolio/restaurant_level3/restaurant2.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio6">
-            <div class="PortfolioNumbertext">4 / 5</div>
-            <img src="img/live_images/portfolio/restaurant_level3/restaurant4.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio6">
-            <div class="PortfolioNumbertext">5 / 5</div>
-            <img src="img/live_images/portfolio/restaurant_level3/restaurant5.jpg" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio6(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio6(1)">&#10095;</a>
-      
-          <div class="caption-container2">
-            <p id="captionPortfolio6"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt">
-              <img class="demoPortfolio6 cursor" src="img/live_images/portfolio/restaurant_level3/restaurant3.jpg" style="width:100%" onclick="currentSlidePortfolio6(1);showSlidesNewPortfolio6(1);" alt="The Restaurant Level 3 Brown Thomas">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio6 cursor" src="img/live_images/portfolio/restaurant_level3/restaurant1.jpg" style="width:100%" onclick="currentSlidePortfolio6(2);showSlidesNewPortfolio6(2);" alt="The Restaurant Level 3 Brown Thomas">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio6 cursor" src="img/live_images/portfolio/restaurant_level3/restaurant2.jpg" style="width:100%" onclick="currentSlidePortfolio6(3);showSlidesNewPortfolio6(3);" alt="The Restaurant Level 3 Brown Thomas">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio6 cursor" src="img/live_images/portfolio/restaurant_level3/restaurant4.jpg" style="width:100%" onclick="currentSlidePortfolio6(4);showSlidesNewPortfolio6(4);" alt="The Restaurant Level 3 Brown Thomas">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio6 cursor" src="img/live_images/portfolio/restaurant_level3/restaurant5.jpg" style="width:100%" onclick="currentSlidePortfolio6(5);showSlidesNewPortfolio6(5);" alt="The Restaurant Level 3 Brown Thomas">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 7 -->
-      <div id="myPortfolioModal7" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio7()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">1 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas1.JPG" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">2 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas2.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">3 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas3.JPG" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">4 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas4.JPG" style="width:100%">
-          </div>
-          
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">5 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas5.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">6 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas6.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio7">
-            <div class="PortfolioNumbertext">7 / 7</div>
-            <img src="img/live_images/portfolio/brown_thomas2nd/brown_thomas7.JPG" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio7(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio7(1)">&#10095;</a>
-      
-          <div class="caption-container">
-            <p id="captionPortfolio7"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas1.JPG" style="width:100%" onclick="currentSlidePortfolio7(1);showSlidesNewPortfolio7(1);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">  
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas2.JPG" style="width:100%" onclick="currentSlidePortfolio7(2);showSlidesNewPortfolio7(2);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">  
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas3.JPG" style="width:100%" onclick="currentSlidePortfolio7(3);showSlidesNewPortfolio7(3);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas4.JPG" style="width:100%" onclick="currentSlidePortfolio7(4);showSlidesNewPortfolio7(4);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas5.JPG" style="width:100%" onclick="currentSlidePortfolio7(5);showSlidesNewPortfolio7(5);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas6.JPG" style="width:100%" onclick="currentSlidePortfolio7(6);showSlidesNewPortfolio7(6);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-            <div class="column" id="bt1stfloor">
-              <img class="demoPortfolio7 cursor" src="img/live_images/portfolio/brown_thomas2nd/brown_thomas7.JPG" style="width:100%" onclick="currentSlidePortfolio7(7);showSlidesNewPortfolio7(7);" alt="Brown Thomas Dublin - 2nd Floor Refurbishments">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-      <!-- Modal 8 -->
-      <div id="myPortfolioModal8" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio8()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio8">
-            <div class="PortfolioNumbertext">1 / 5</div>
-            <img id="big_image" src="img/live_images/portfolio/green_bean/brown_thomas5.1.PNG" style="width:100%;height:80%">
-            <img id="small_image" src="img/live_images/portfolio/green_bean/brown_thomas5.png" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio8">
-            <div class="PortfolioNumbertext">2 / 5</div>
-            <img id="big_image" src="img/live_images/portfolio/green_bean/green_bean1.PNG" style="width:100%">
-            <img id="small_image" src="img/live_images/portfolio/green_bean/green_bean1.1.png" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio8">
-            <div class="PortfolioNumbertext">3 / 5</div>
-            <img src="img/live_images/portfolio/green_bean/green_bean2.JPG" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio8">
-            <div class="PortfolioNumbertext">4 / 5</div>
-            <img src="img/live_images/portfolio/green_bean/green_bean3.JPG" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio8">
-            <div class="PortfolioNumbertext">5 / 5</div>
-            <img src="img/live_images/portfolio/green_bean/green_bean4.JPG" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio8(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio8(1)">&#10095;</a>
-      
-          <div class="caption-container2">
-            <p id="captionPortfolio8"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt">
-              <img class="demoPortfolio8 cursor" src="img/live_images/portfolio/green_bean/brown_thomas5.png" style="width:100%" onclick="currentSlidePortfolio8(1);showSlidesNewPortfolio8(1);" alt="Green and Bean Restaurant Grafton Street">
-            </div>
-            <div class="column" id="bt"> 
-              <img class="demoPortfolio8 cursor" src="img/live_images/portfolio/green_bean/green_bean1.1.PNG" style="width:100%" onclick="currentSlidePortfolio8(2);showSlidesNewPortfolio8(2);" alt="Green and Bean Restaurant Grafton Street">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio8 cursor" src="img/live_images/portfolio/green_bean/green_bean2.JPG" style="width:100%" onclick="currentSlidePortfolio8(3);showSlidesNewPortfolio8(3);" alt="Green and Bean Restaurant Grafton Street">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio8 cursor" src="img/live_images/portfolio/green_bean/green_bean3.JPG" style="width:100%" onclick="currentSlidePortfolio8(4);showSlidesNewPortfolio8(4);" alt="Green and Bean Restaurant Grafton Street">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio8 cursor" src="img/live_images/portfolio/green_bean/green_bean4.JPG" style="width:100%" onclick="currentSlidePortfolio8(5);showSlidesNewPortfolio8(5);" alt="Green and Bean Restaurant Grafton Street">
-            </div>
-          </div>
-        </div>
-      
-      
-      </div>
-
-      <!-- Modal 9 -->
-      <div id="myPortfolioModal9" class="modal">
-        <span class="close cursor" onclick="closeModalNewPortfolio9()">&times;</span>
-        <div class="modal-content" id="modal-content2">
-      
-          <div class="mySlidesPortfolio9">
-            <div class="PortfolioNumbertext">1 / 5</div>
-            <img src="img/live_images/portfolio/dunnes/dunnes6.1.jpg" style="width:100%;height:80%">
-          </div>
-      
-          <div class="mySlidesPortfolio9">
-            <div class="PortfolioNumbertext">2 / 5</div>
-            <img src="img/live_images/portfolio/dunnes/dunnes5.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio9">
-            <div class="PortfolioNumbertext">3 / 5</div>
-            <img src="img/live_images/portfolio/dunnes/dunnes7.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlidesPortfolio9">
-            <div class="PortfolioNumbertext">4 / 5</div>
-            <img src="img/live_images/portfolio/dunnes/dunnes4.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlidesPortfolio9">
-            <div class="PortfolioNumbertext">5 / 5</div>
-            <img src="img/live_images/portfolio/dunnes/dunnes2.jpg" style="width:100%">
-          </div>
-
-          <a class="portfolioPrev" onclick="plusSlidesNewPortfolio9(-1)">&#10094;</a>
-          <a class="portfolioNext" onclick="plusSlidesNewPortfolio9(1)">&#10095;</a>
-      
-          <div class="caption-container2">
-            <p id="captionPortfolio9"></p>
-          </div>
-      
-          <div class="row" id="row">
-            <div class="column" id="bt">
-              <img class="demoPortfolio9 cursor" src="img/live_images/portfolio/dunnes/dunnes6.jpg" style="width:100%" onclick="currentSlidePortfolio9(1);showSlidesNewPortfolio9(1);" alt="Dunnnes Stores">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio9 cursor" src="img/live_images/portfolio/dunnes/dunnes5.jpg" style="width:100%" onclick="currentSlidePortfolio9(2);showSlidesNewPortfolio9(2);" alt="Dunnnes Stores">
-            </div>
-            <div class="column" id="bt">  
-              <img class="demoPortfolio9 cursor" src="img/live_images/portfolio/dunnes/dunnes7.jpg" style="width:100%" onclick="currentSlidePortfolio9(3);showSlidesNewPortfolio9(3);" alt="Dunnnes Stores">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio9 cursor" src="img/live_images/portfolio/dunnes/dunnes4.jpg" style="width:100%" onclick="currentSlidePortfolio9(4);showSlidesNewPortfolio9(4);" alt="Dunnnes Stores">
-            </div>
-            <div class="column" id="bt">
-              <img class="demoPortfolio9 cursor" src="img/live_images/portfolio/dunnes/dunnes2.jpg" style="width:100%" onclick="currentSlidePortfolio9(5);showSlidesNewPortfolio9(5);" alt="Dunnnes Stores">
-            </div>
-          </div>
-        </div>      
-    
-    
-    
-      </div>
-
-    </div>
-  </section>
-  <br><br><br><br><br>
-  <!-- About -->
-  <section class="page-section" id="about">
-    <img id="small_image" src="img/live_images/rsz_about_1.1.PNG" alt="">
-    <img id="small_image" src="img/live_images/rsz_about2.2.PNG" alt="">
-    <img id="big_image" src="img/live_images/about_1.1.PNG" alt="">
-  </section>
-
-  <!-- Clients -->
-  <section class="page-section" id="clients">
-    <div class="col-lg-12 text-center">
-      <h2 id="small_image" class="section-heading text-uppercase">Clients</h2>
-    </div>
-    <img id="big_image" src="img/live_images/clients.PNG" alt="">
-    <img id="small_image" src="img/live_images/clients2.PNG" alt="">
-  </section>
-
-  <!-- Certs -->
-  <section class="page-section" id="contact">
-    <img id="big_image" src="img/contact/thanks.PNG" alt="">
-  </section>
-
-  <!-- Contact -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center"><br><br>
-          <h2 class="section-heading text-uppercase" id="contactUs">Contact Us</h2>
-          <h3 class="section-subheading text-muted"></h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <form id="contactForm" method="POST" class="contactForm" name="sentMessage" action="contactus.php">
-            <div id="sendMessage">Your Message has been sent. Thank you!</div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="validation"></div>
-                <div class="form-group">
-                  <input class="form-control" id="email"  name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button id="sendMessageButton" onclick="validateForm()" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer" id="footer">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright" id="policy">Copyright &copy; McCabeMcGinn 2020</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/company/mccabe-mcginn-construction-&-management-ltd/" id="social_media">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a href="#page-top" id="header_ahref" class="navbar-brand js-scroll-trigger">
+          <img id="switchPic" class="navbar-brand js-scroll-trigger" src="img/logos/company_logo.png" alt=""/>
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto" id="allNavItems">
+            <li class="nav-item" id="hover">
+              <a class="nav-link js-scroll-trigger" href="#aboutLink">About</a>
             </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="mailto: info@mcabe-mcginn.ie" id="policy">info@mcabe-mcginn.ie</a>
+            <li class="nav-item" id="hover">
+              <a class="nav-link js-scroll-trigger" href="#servicesLink"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item" id="hover">
+              <a class="nav-link js-scroll-trigger" href="#portfolioLink"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item" id="hover">
+              <a class="nav-link js-scroll-trigger" href="#clientsLink">Clients</a>
+            </li>
+            <li class="nav-item" id="hover">
+              <a class="nav-link js-scroll-trigger" href="#contactLink">Contact</a>
             </li>
           </ul>
         </div>
       </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container p-0 mw-100" style="position: relative;">
+      <img
+        id="big_image"
+        src="img/headerImages/header.JPG"
+        alt="Header"
+        class="responsive"
+      />
+      <img
+        id="small_image"
+        src="img/headerImages/responsiveHeader.jpg"
+        alt="Header"
+        class="responsive"
+      />
+      <div class="shadow2 text-uppercase">
+        <a href="http://buildingirelandmagazine.ie/a-leading-fit-out-specialist/">
+          <p class="quote">A Leading Fit-Out Specialist</p>
+        </a>
+        <p class="imageText">Delivering Tailored Commercial & Retail Solutions</p>
+        <p id="aboutLink" ></p>
+      </div>
     </div>
-  </footer>
 
-  <button id="back-to-top" onclick="backToTop()">
-    <i class="fas fa-angle-up">
+    <!-- About Us -->
+    <section class="page-section" id="about">
+      <div class="container mt-md-5 mt-4">
+        <div class="row pb-md-5 pb-4" id="aboutTitle">
+          <div id="AboutColumn1" class="col-md-6 col-12">
+            <h4 class="service-heading pb-4">About Us</h4>
+            <p class="">
+              Formed in 2012, McCabe McGinn Construction & Management (MCMG) specialise in fit-out 
+              within the retail, leisure and office sectors. Offering a comprehensive service, MCMG 
+              bring together all the neccessary components to deliver complex projects in a fast-track 
+              environment. We strive to deliver an innovative and hands-on approach to all our projects. 
+              Providing the neccessary knowledge, experience and resources at an accessible and personalised 
+              level, we ensure that our clients' needs and expectations are met to a consistently high level and 
+              professional standard.<br /><br />
+              McCabe McGinn has grown steadily since inception and is well
+              established in both the UK and Irish markets.
+              This knowledge has underpinned the development of a diverse and
+              impressive portfolio of fit-outs from clients including:
+              <br /><br />
+              Brown Thomas, Arnotts, Cineworld, Superdry, Value Retail, Dunnes
+              Stores, Hermes, Prada, Louis Vuitton, Jimmy Choo, Valentino, HUDA,
+              Selina, Christian Louboutin, Kennedy Wilson, Thom Sweeney, Multi, UCD, G4s, Kildare
+              Village, Ralph Lauren, Mulberry Celine, Tumi, Aura,
+              and Cartier.
+            </p>
+          </div>
+          <div id="AboutColumn2" class="col-md-6 col-12">
+            <h4 class="service-heading pb-4">Our Services</h4>
+            <p class="">
+              Our activities consist primarily of fit-out within the retail, leisure, hospitality and office 
+              sectors, bringing together all the construction, MEP services and finishes required for 
+              a successful project. We are accomplished at working under strict site conditions, with extensive 
+              experience in maintaining fully operational construction sites in close proximity to both the 
+              client and the public - many within live operational/trading environments.<br><br>We have developed a solid 
+              supply chain based on service, quality and commitment to reliability and teamwork. Through this supply 
+              chain, our range of services extends to the design, production and installation of bespoke 
+              joinery, metalwork and glazing to provide the finishing touches to any development. We can offer 
+              a full design and build service, managing consultants and contractors to provide a turnkey product.
+              <br><br>
+              We have an accreditation of ISO 9001, ISO 14001 and ISO 45001. 
+            </p>
+            <div id="servicesLink"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </i>
-  </button>
+    <!-- Services -->
+    <section class="page-section mt-md-5 mt-4" id="services">
+      <div class="container" id="servicesContainer">
+        <div class="row" id="services">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase pb-4">Services</h2>
+          </div>
+        </div>
+        <div class="row pb-4" id="ServicesTitle">
+          <div id="column" class="col-md-3 col-sm-6">
+            <img
+              id="servicesHover"
+              src="img/new_services/cover_images/retail.jpg"
+              style="width: 100%;"
+              onclick="openServicesModal1();currentServicesSlide1(1);showServicesSlides1(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="service-heading">Retail</h4>
+            <p class="">
+              Delivering complex, fast-track retail projects - with extensive
+              experience operating in live, trading stores.
+            </p>
+          </div>
+          <div id="column" class="col-md-3 col-sm-6">
+            <img
+              id="servicesHover"
+              src="img/new_services/leisure/leisure3.jpg"
+              style="width: 100%;"
+              onclick="openServicesModal2();currentServicesSlide2(1);showServicesSlides2(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="service-heading">Leisure</h4>
+            <p class="">
+              In conjunction with our trusted supply chain partners, we provide
+              bespoke solutions for unique requirements.
+            </p>
+          </div>
+          <div id="column" class="col-md-3 col-sm-6">
+            <img
+              id="servicesHover"
+              src="img/new_services/cover_images/hospitality.jpg"
+              style="width: 100%;"
+              onclick="openServicesModal3();currentServicesSlide3(1);showServicesSlides3(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="service-heading">Hospitality</h4>
+            <p class="">
+              To deliver a quality final product which satisfies the client
+              brief and expectations and to take a strategic approach to every
+              project with the aim of establishing the best possible client
+              service.
+            </p>
+          </div>
+          <div id="column" class="col-md-3 col-sm-6">
+            <img
+              id="servicesHover"
+              src="img/new_services/cover_images/commercial.jpg"
+              style="width: 100%;"
+              onclick="openServicesModal4();currentServicesSlide4(1);showServicesSlides4(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="service-heading">Commercial</h4>
+            <p class="">
+              Bringing highly specialised knowledge and experience to the
+              commercial office environment.
+            </p>
+            <div id="portfolioLink"></div>
+          </div>
+        </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Services Modals -->
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Modal 1 -->
 
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+        <row id="servicesModal1" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closeServicesModal1()"
+            >&times;</span
+          >
+          <div class="col-md-9 col-12 m-md-auto m-none mt-md-4 mt-0" id="modal-content3">
+            <div class="servicesSlides1">
+              <div class="PortfolioNumbertext">1 / 4</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal1()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/cover_images/retail.jpg"
+                style="width: 100%;"
+              />
+            </div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
-  <script src="https://kit.fontawesome.com/72c9e64025.js" crossorigin="anonymous"></script>
+            <div class="servicesSlides1">
+              <div class="PortfolioNumbertext">2 / 4</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal1()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/retail/retail1.jpg"
+                style="width: 100%;"
+              />
+            </div>
 
-</body>
+            <div class="servicesSlides1">
+              <div class="PortfolioNumbertext">3 / 4</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal1()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/retail/retail2.jpg"
+                style="width: 100%;"
+              />
+            </div>
 
+            <div class="servicesSlides1">
+              <div class="PortfolioNumbertext">4 / 4</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal1()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/retail/retail4.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <a class="portfolioPrev" onclick="plusServicesSlides1(-1)"
+              >&#10094;</a
+            >
+            <a class="portfolioNext" onclick="plusServicesSlides1(1)"
+              >&#10095;</a
+            >
+
+            <div class="row pb-3 pt-3" id="innerModalContent">
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/cover_images/retail.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide1(1);showServicesSlides1(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/retail/retail1.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide1(2);showServicesSlides1(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/retail/retail2.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide1(3);showServicesSlides1(2);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/retail/retail4.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide1(4);showServicesSlides1(4);"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Modal 2 -->
+        <div id="servicesModal2" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closeServicesModal2()"
+            >&times;</span
+          >
+          <div class="col-md-9 col-12 m-md-auto m-none mt-md-4 mt-0" id="modal-content3">
+            <div class="servicesSlides2">
+              <div class="PortfolioNumbertext">1 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal2()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/leisure/leisure3.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides2">
+              <div class="PortfolioNumbertext">2 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal2()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/leisure/leisure2.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides2">
+              <div class="PortfolioNumbertext">3 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal2()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/leisure/leisure7.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides2">
+              <div class="PortfolioNumbertext">4 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal2()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/cover_images/leisure.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides2">
+              <div class="PortfolioNumbertext">5 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal2()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/leisure/leisure5.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <a class="portfolioPrev" onclick="plusServicesSlides2(-1)"
+              >&#10094;</a
+            >
+            <a class="portfolioNext" onclick="plusServicesSlides2(1)"
+              >&#10095;</a
+            >
+
+            <div class="row pb-3 pt-3" id="innerModalContent">
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/leisure/leisure3.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide2(1);showServicesSlides2(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/leisure/leisure2.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide2(2);showServicesSlides2(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/leisure/leisure7.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide2(3);showServicesSlides2(2);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/cover_images/leisure.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide2(4);showServicesSlides2(3);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/leisure/leisure5.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide2(5);showServicesSlides2(4);"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div id="servicesModal3" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closeServicesModal3()"
+            >&times;</span
+          >
+          <div class="col-md-9 col-12 m-md-auto m-none mt-md-4 mt-0" id="modal-content3">
+            <div class="servicesSlides3">
+              <div class="PortfolioNumbertext">1 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal3()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/cover_images/hospitality.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides3">
+              <div class="PortfolioNumbertext">2 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal3()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/hospitality/hospitality1.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides3">
+              <div class="PortfolioNumbertext">3 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal3()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/hospitality/hospitality2.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides3">
+              <div class="PortfolioNumbertext">4 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal3()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/hospitality/hospitality3.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides3">
+              <div class="PortfolioNumbertext">5 / 5</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal3()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/hospitality/hospitality4.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <a class="portfolioPrev" onclick="plusServicesSlides3(-1)"
+              >&#10094;</a
+            >
+            <a class="portfolioNext" onclick="plusServicesSlides3(1)"
+              >&#10095;</a
+            >
+
+            <div class="row pb-3 pt-3" id="innerModalContent">
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/cover_images/hospitality.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide3(1);showServicesSlides3(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/hospitality/hospitality1.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide3(2);showServicesSlides3(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/hospitality/hospitality2.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide3(3);showServicesSlides3(2);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/hospitality/hospitality3.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide3(4);showServicesSlides3(3);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/hospitality/hospitality4.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide3(5);showServicesSlides3(4);"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div id="servicesModal4" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closeServicesModal4()"
+            >&times;</span
+          >
+          <div class="col-md-9 col-12 m-md-auto m-none mt-md-4 mt-0" id="modal-content3">
+            <div class="servicesSlides4">
+              <div class="PortfolioNumbertext">1 / 3</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal4()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/cover_images/commercial.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides4">
+              <div class="PortfolioNumbertext">2 / 3</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal4()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/commercial/commercial3.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <div class="servicesSlides4">
+              <div class="PortfolioNumbertext">3 / 3</div>
+              <div class="closeBtnSmall d-md-none" onclick="closeServicesModal4()">&times;</div>
+              <img class="modalServicesImage"
+                src="img/new_services/commercial/commercial2.2.jpg"
+                style="width: 100%;"
+              />
+            </div>
+
+            <a class="portfolioPrev" onclick="plusServicesSlides4(-1)"
+              >&#10094;</a
+            >
+            <a class="portfolioNext" onclick="plusServicesSlides4(1)"
+              >&#10095;</a
+            >
+
+            <div class="row pb-3 pt-3" id="innerModalContent">
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/cover_images/commercial.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide4(1);showServicesSlides4(1);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/commercial/commercial3.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide4(2);showServicesSlides4(2);"
+                  alt=""
+                />
+              </div>
+              <div class="col-2" id="slideShowBtmImages">
+                <img
+                  class="demo cursor"
+                  src="img/new_services/commercial/commercial2.jpg"
+                  style="width: 100%;"
+                  onclick="currentServicesSlide4(3);showServicesSlides4(3);"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="page-section mt-md-5 mt-4" id="portfolio">
+      <div class="container" id="portfolioContainer">
+        <div class="row" id="portfolio">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase pb-4">Portfolio</h2>
+          </div>
+        </div>
+        <div class="row" id="ClientsTitle">
+          <div id="column" class="col-md-3 mb-md-4 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/BT_groundFloor/bt_groundFloor1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal1();currentPortfolioSlide1(1);showPortfolioSlides1(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Brown Thomas Grafton Street Dublin
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-4 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/Arnotts/arnotts1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal2();currentPortfolioSlide2(1);showPortfolioSlides2(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Arnotts Department Store Dublin
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-4 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/cineworld/v2/cineworld8.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal3();currentPortfolioSlide3(1);showPortfolioSlides3(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Cineworld Parnell Street Dublin – 4DX
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-4 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/BT_restaurant/bt_restaurant1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal4();currentPortfolioSlide4(1);showPortfolioSlides4(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              The Restaurant Brown Thomas Dublin
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-0 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/offices/office4.1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal5();currentPortfolioSlide5(1);showPortfolioSlides5(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Anne Street Offices Dublin
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-0 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/BT_level2/bt_level2_1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal6();currentPortfolioSlide6(1);showPortfolioSlides6(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Brown Thomas Dublin<br/>Level 2 Refurbishment
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-0 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/selina_manchester/selina1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal7();currentPortfolioSlide7(1);showPortfolioSlides7(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Selina Manchester
+            </h4>
+            <p class=""></p>
+          </div>
+          <div id="column" class="col-md-3 mb-md-0 mb-2 col-sm-6">
+            <img
+              id="portfolioHover"
+              src="img/new_portfolio/green_bean/green_bean1.jpg"
+              style="width: 100%;"
+              onclick="openPortfolioModal8();currentPortfolioSlide8(1);showPortfolioSlides8(1);"
+              class="hover-shadow cursor"
+            />
+            <h4 class="portfolio-heading">
+              Green and Bean Restaurant Dublin
+            </h4>
+            <p class=""></p>
+            <div id="clientsLink"></div>
+          </div>
+        </div>
+
+        <!-- Portfolio Modals -->
+
+        <!-- Portfolio Modal 1 -->
+        <row id="portfolioModal1" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal1()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  Brown Thomas Grafton Street Dublin
+                  Ground Floor Luxury Good, Accessories and Beauty hall
+                  Refurbishment
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  32 Weeks over 3 phases
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Brown Thomas Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  4IV London
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides1">
+                  <div class="PortfolioNumbertext">1 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal1()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_groundFloor/bt_groundFloor1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides1">
+                  <div class="PortfolioNumbertext">2 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal1()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_groundFloor/bt_groundFloor2.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides1">
+                  <div class="PortfolioNumbertext">3 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal1()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_groundFloor/bt_groundFloor3.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides1">
+                  <div class="PortfolioNumbertext">4 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal1()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_groundFloor/bt_groundFloor5.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides1">
+                  <div class="PortfolioNumbertext">5 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal1()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_groundFloor/bt_groundFloor6.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides1(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow" onclick="plusPortfolioSlides1(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          Ground Floor Luxury Good, Accessories and Beauty hall
+                          Refurbishment
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          32 Weeks over 3 phases
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Brown Thomas Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          4IV London
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_groundFloor/bt_groundFloor1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide1(1);showPortfolioSlides1(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_groundFloor/bt_groundFloor2.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide1(2);showPortfolioSlides1(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_groundFloor/bt_groundFloor3.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide1(3);showPortfolioSlides1(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_groundFloor/bt_groundFloor5.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide1(4);showPortfolioSlides1(4);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_groundFloor/bt_groundFloor6.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide1(5);showPortfolioSlides1(5);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 2 -->
+        <row id="portfolioModal2" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal2()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  Arnotts Department Store Dublin<br>
+                  Ground Floor Luxury Accessories and Beauty
+                  hall Refurbishment
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  18 Weeks over 3 phases
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Arnotts / Selfridges Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  Longform Architects Dublin
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides2">
+                  <div class="PortfolioNumbertext">1 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal2()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/Arnotts/arnotts1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides2">
+                  <div class="PortfolioNumbertext">2 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal2()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/Arnotts/arnotts2.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides2">
+                  <div class="PortfolioNumbertext">3 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal2()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/Arnotts/arnotts3.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides2">
+                  <div class="PortfolioNumbertext">4 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal2()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/Arnotts/arnotts4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow"  onclick="plusPortfolioSlides2(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow"  onclick="plusPortfolioSlides2(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          Arnotts Dublin - Ground Floor Luxury Accessories and
+                          Beauty hall Refurbishment
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          18 Weeks over 3 phases
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Arnotts / Selfridges Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Longform Architects Dublin
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/Arnotts/arnotts1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide2(1);showPortfolioSlides2(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/Arnotts/arnotts2.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide2(2);showPortfolioSlides2(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/Arnotts/arnotts3.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide2(3);showPortfolioSlides2(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/Arnotts/arnotts4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide2(4);showPortfolioSlides2(3);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 3 -->
+        <row id="portfolioModal3" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal3()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  4DX Cinema Parnell Street Dublin
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  10 Weeks
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Cineworld Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  NBDA architects – UK
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides3">
+                  <div class="PortfolioNumbertext">1 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal3()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/cineworld/v2/cineworld8.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides3">
+                  <div class="PortfolioNumbertext">2 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal3()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/cineworld/v2/cineworld7.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides3">
+                  <div class="PortfolioNumbertext">3 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal3()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/cineworld/v2/cineworld2.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides3">
+                  <div class="PortfolioNumbertext">4 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal3()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/cineworld/v2/cineworld4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides3">
+                  <div class="PortfolioNumbertext">5 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal3()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/cineworld/v2/cineworld6.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides3(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow"  onclick="plusPortfolioSlides3(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          4DX Cinema Parnell Street Dublin
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          10 Weeks
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Cineworld Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          NBDA architects – UK
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/cineworld/v2/cineworld8.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide3(1);showPortfolioSlides3(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/cineworld/v2/cineworld7.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide3(2);showPortfolioSlides3(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/cineworld/v2/cineworld2.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide3(3);showPortfolioSlides3(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/cineworld/v2/cineworld4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide3(4);showPortfolioSlides3(4);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/cineworld/v2/cineworld6.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide3(5);showPortfolioSlides3(5);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 4 -->
+        <row id="portfolioModal4" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal4()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  The Restaurant – Brown Thomas Dublin
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  7 Weeks
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Brown Thomas Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  Cast Architecture – Dublin
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides4">
+                  <div class="PortfolioNumbertext">1 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal4()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_restaurant/bt_restaurant1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides4">
+                  <div class="PortfolioNumbertext">2 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal4()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_restaurant/bt_restaurant2.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides4">
+                  <div class="PortfolioNumbertext">3 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal4()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_restaurant/bt_restaurant4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides4">
+                  <div class="PortfolioNumbertext">4 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal4()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_restaurant/bt_restaurant5.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides4">
+                  <div class="PortfolioNumbertext">5 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal4()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_restaurant/bt_restaurant6.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides4(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow" onclick="plusPortfolioSlides4(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          The Restaurant – Brown Thomas Dublin
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          7 Weeks
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Brown Thomas Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Cast Architecture – Dublin
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_restaurant/bt_restaurant1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide4(1);showPortfolioSlides4(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_restaurant/bt_restaurant2.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide4(2);showPortfolioSlides4(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_restaurant/bt_restaurant4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide4(3);showPortfolioSlides4(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_restaurant/bt_restaurant5.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide4(4);showPortfolioSlides4(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_restaurant/bt_restaurant6.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide4(5);showPortfolioSlides4(3);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 5 -->
+        <row id="portfolioModal5" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal5()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  Anne Street Offices
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  10 Weeks
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Brown Thomas Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  Brown Thomas – In House
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides5">
+                  <div class="PortfolioNumbertext">1 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal5()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/offices/office4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides5">
+                  <div class="PortfolioNumbertext">2 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal5()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/offices/office3.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides5">
+                  <div class="PortfolioNumbertext">3 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal5()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/offices/office1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides5">
+                  <div class="PortfolioNumbertext">4 / 4</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal5()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/offices/office5.1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides5(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow" onclick="plusPortfolioSlides5(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          Anne Street Offices
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          10 Weeks
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Brown Thomas Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Brown Thomas – In House
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/offices/office4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide5(1);showPortfolioSlides5(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/offices/office3.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide5(2);showPortfolioSlides5(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/offices/office1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide5(3);showPortfolioSlides5(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/offices/office5.1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide5(4);showPortfolioSlides5(3);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 6 -->
+        <row id="portfolioModal6" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal6()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  Brown Thomas Dublin Level 2 Refurbisment of : Womenswear,
+                  Accessories, and Lifestyle
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  53 Weeks over 4 phases
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Brown Thomas / Selfridges Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  Alex Corchrane Architects – London
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides6">
+                  <div class="PortfolioNumbertext">1 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal6()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_level2/bt_level2_1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides6">
+                  <div class="PortfolioNumbertext">2 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal6()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_level2/bt_level2_2.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides6">
+                  <div class="PortfolioNumbertext">3 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal6()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_level2/bt_level2_3.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides6">
+                  <div class="PortfolioNumbertext">4 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal6()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_level2/bt_level2_4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides6">
+                  <div class="PortfolioNumbertext">5 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal6()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/BT_level2/bt_level2_5.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides6(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow" onclick="plusPortfolioSlides6(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          Brown Thomas Dublin Level 2 Refurbisment of :
+                          Womenswear, Accessories, and Lifestyle
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          53 Weeks over 4 phases
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Brown Thomas / Selfridges Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Alex Corchrane Architects – London
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_level2/bt_level2_1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide6(1);showPortfolioSlides6(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_level2/bt_level2_2.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide6(2);showPortfolioSlides6(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_level2/bt_level2_3.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide6(3);showPortfolioSlides6(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_level2/bt_level2_4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide6(4);showPortfolioSlides6(4);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/BT_level2/bt_level2_5.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide6(5);showPortfolioSlides6(3);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 7 -->
+        <row id="portfolioModal7" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal7()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  Selina Manchester – Refurbishment of existing luxury and
+                  budget accommodation
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  12 Weeks
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  Selina UK
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  Selina UK – In House
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides7">
+                  <div class="PortfolioNumbertext">1 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal7()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/selina_manchester/selina1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides7">
+                  <div class="PortfolioNumbertext">2 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal7()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/selina_manchester/selina2.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides7">
+                  <div class="PortfolioNumbertext">3 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal7()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/selina_manchester/selina4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides7">
+                  <div class="PortfolioNumbertext">4 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal7()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/selina_manchester/selina5.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides7">
+                  <div class="PortfolioNumbertext">5 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal7()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/selina_manchester/selina6.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides7(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow" onclick="plusPortfolioSlides7(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          Selina Manchester – Refurbishment of existing luxury
+                          and budget accommodation
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          12 Weeks
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Selina UK
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          Selina UK – In House
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/selina_manchester/selina1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide7(1);showPortfolioSlides7(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/selina_manchester/selina2.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide7(2);showPortfolioSlides7(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/selina_manchester/selina4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide7(3);showPortfolioSlides7(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/selina_manchester/selina5.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide7(4);showPortfolioSlides7(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/selina_manchester/selina6.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide7(5);showPortfolioSlides7(3);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+
+        <!-- Portfolio Modal 8 -->
+        <row id="portfolioModal8" class="modal">
+          <span class="close col-1 d-md-block d-none" onclick="closePortfolioModal8()"
+            >&times;</span
+          >
+
+          <div class="modal-content col-md-11 col-12 ml-md-4 mt-md-4 mt-4" id="modal-content4">
+            <div class="row" id="innerModalContent">
+              <div
+                class="col-3 p-2 mt-4 d-md-block d-none"
+                style="display: inline-block;"
+              >
+                <div class="type mb-2">Project:</div>
+                <div class="value mb-4">
+                  Green and Bean Restaurant Dublin
+                </div>
+                <div class="type mb-2">Duration:</div>
+                <div class="value mb-4">
+                  8 Weeks
+                </div>
+                <div class="type mb-2">Client:</div>
+                <div class="value mb-4">
+                  BT Group
+                </div>
+                <div class="type mb-2">Architect:</div>
+                <div class="value mb-4">
+                  ACA architects London
+                </div>
+              </div>
+              <div class="col-md-9 col-12 p-0" style="display: inline-block;">
+                <div class="portfolioSlides8">
+                  <div class="PortfolioNumbertext">1 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal8()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/green_bean/green_bean1.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides8">
+                  <div class="PortfolioNumbertext">2 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal8()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/green_bean/green_bean3.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides8">
+                  <div class="PortfolioNumbertext">3 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal8()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/green_bean/green_bean4.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides8">
+                  <div class="PortfolioNumbertext">4 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal8()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/green_bean/green_bean6.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <div class="portfolioSlides8">
+                  <div class="PortfolioNumbertext">5 / 5</div>
+                  <div class="closeBtnSmall d-md-none" onclick="closePortfolioModal8()">&times;</div>
+                  <img class="modalImage"
+                    src="img/new_portfolio/green_bean/green_bean7.jpg"
+                    style="width: 100%;"
+                  />
+                </div>
+
+                <a class="portfolioPrev" id="portfolioArrow" onclick="plusPortfolioSlides8(-1)"
+                  >&#10094;</a
+                >
+                <a class="portfolioNext" id="portfolioArrow" onclick="plusPortfolioSlides8(1)"
+                  >&#10095;</a
+                >
+
+                <div class="caption-container d-md-none d-block">
+                  <div id="caption4">
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0 mt-1">
+                          Project:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2 mt-1">
+                          Green and Bean Restaurant
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Duration:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          8 Weeks
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Client:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          BT Group
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 p-1 mb-1">
+                      <div class="row">
+                        <div class="smallType col-2 p-0">
+                          Architect:
+                        </div>
+                        <div class="smallValue col-10 p-0 pl-2">
+                          ACA architects London
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-md-3 mb-3 mt-3" id="row">
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/green_bean/green_bean1.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide8(1);showPortfolioSlides8(1);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/green_bean/green_bean3.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide8(2);showPortfolioSlides8(2);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/green_bean/green_bean4.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide8(3);showPortfolioSlides8(3);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/green_bean/green_bean6.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide8(4);showPortfolioSlides8(4);"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2" id="slideShowBtmImages">
+                    <img
+                      class="demo cursor"
+                      src="img/new_portfolio/green_bean/green_bean7.jpg"
+                      style="width: 100%;"
+                      onclick="currentPortfolioSlide8(5);showPortfolioSlides8(5);"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </row>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="page-section" id="clients">
+      <h2 id="clientsHeading" class="section-heading text-uppercase pt-4 pb-4 d-md-none d-block">Clients</h2>
+      <img id="big_image" src="img/clients/clients.PNG" alt="" />
+      <img id="small_image" src="img/clients/clients2.PNG" alt="" />
+      <div id="contactLink"></div>
+    </section>
+
+    <!-- Contact -->
+    <section class="page-section mt-md-5 mt-4 mb-md-5 mb-4" id="contact">
+      <div class="container fluid">
+        <div class="col-12">
+          <h2 class="section-heading text-uppercase pb-4">Contact Us</h2>
+          <div class="row mb-5">
+            <div class="col-md-6 col-12 mb-md-0 mb-4" id="contactDetails">
+              <div class="mb-md-3 mb-2">Send the team a message and we will get back to you shortly.</div>
+              <div class="mb-md-3 mb-2 mt-md-3 mt-2">McCabe McGinn Construction & Management Ltd.</div>
+              <div class="mb-md-3 mb-2 mt-md-3 mt-2">Mediterranean House, Dublin Road, Ashbourne, Co. Meath.</div>
+              <div class="mb-md-3 mb-2 mt-md-3 mt-2">Tel:
+                <a class="phoneNo" href="tel:+353 (0)1 8499865">
+                  +353 (0)1 8499865
+                </a>
+              </div>
+              <div class="mt-md-3 mt-2">Email: 
+                <a class="email" href="mailto:info@mccabe-mcginn.ie?subject=Website Enquiry">
+                info@mccabe-mcginn.ie
+                </a>
+              </div>
+            </div>  
+            <div class="col-md-6 col-12">
+              <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.1823463623855!2d-6.390164684155685!3d53.50093798001165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486714954c5bb761%3A0xa880cbc0b106de!2sMediterranean%20Design%20Centre!5e0!3m2!1sen!2sie!4v1590626674795!5m2!1sen!2sie" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>   
+          </div>       
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form
+              id="contactForm"
+              method="POST"
+              class="contactForm"
+              name="sentMessage"
+              action="/php/contactus.php"
+            >
+              <div id="sendMessage">Your Message has been sent. Thank you!</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      type="text"
+                      placeholder="Your Name *"
+                      required="required"
+                      data-validation-required-message="Please enter your name."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="validation"></div>
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="Your Email *"
+                      required="required"
+                      data-validation-required-message="Please enter your email address."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      placeholder="Your Phone"
+                      data-validation-required-message="Please enter your phone number."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      placeholder="Your Message *"
+                      required="required"
+                      data-validation-required-message="Please enter a message."
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button
+                    id="sendMessageButton"
+                    class="btn btn-primary btn-xl text-uppercase"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <span class="copyright" id="policy"
+              >Copyright &copy; McCabe McGinn Construction & Management</span
+            >
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.linkedin.com/company/mccabe-mcginn-construction-&-management-ltd/"
+                  id="social_media"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="mailto: info@mccabe-mcginn.ie?subject=Website Enquiry" id="policy"
+                  >info@mccabe-mcginn.ie</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="back-to-top" onclick="backToTop()" style="display: none;">
+      <i class="fas fa-angle-up"> </i>
+    </button>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/72c9e64025.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

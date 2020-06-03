@@ -1,11 +1,12 @@
 <?php
+	echo 'php';
     // Check for empty fields
     $name = $_POST['name'];
 	$userEmail = $_POST['email'];
 	$userMessage = $_POST['message'];
 
-	$to 			= "info@mcabe-mcginn.ie";
-	$subject 		= "Email from my website";
+	$to 			= "arononeill98@gmail.com";
+	$subject 		= "Website email enquiry";
 	$body 			= "Information Submitted:";
 
 	$body .= "\r\n Name: " . $name;
